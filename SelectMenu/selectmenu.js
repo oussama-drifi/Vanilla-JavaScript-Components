@@ -1,5 +1,5 @@
 const optionsContainer = document.querySelector(".options");
-// normally load regions from database
+// normally load regions (or any other items) from api
 const items = ["Casablanca-Settat", "Rabat-Salé", "Tanger-Tétouan", "Laayoune-Boujdour", "Sous-Massa"];
 // render items
 items.forEach(item => {
