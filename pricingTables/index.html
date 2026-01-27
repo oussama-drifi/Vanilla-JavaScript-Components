@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Tables</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- icons library via CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <h1 class="gradient-text">Choose your plan</h1>
+
+    <!-- start light / dark functionality -->
+    <div class="switch-theme-btn-wrapper">
+        <button class="active" id="light-btn"><i class="bi bi-brightness-high"></i></button>
+        <button id="dark-btn"><i class="bi bi-moon"></i></button>
+    </div>
+    <!-- end light / dark functionality -->
+
+    <!-- start monthly / yearly toggling -->
+    <div class="toggle-btns-wrapper">
+        <div class="wrapper">
+            <div class="selection-pointer"></div>
+            <button id="monthly-btn" class="active">monthly</button>
+            <button id="yearly-btn">yearly</button>
+        </div>
+    </div>
+    <!-- end monthly / yearly toggling -->
+
+    <!-- start plans container -->
+    <section class="main-container">
+        <!-- start basic plan -->
+        <div class="basic-plan">
+            <!-- start plan head -->
+            <div class="plan-head">
+                <div class="save-two-months-flag">save 2 months</div>
+                <h3><i class="bi bi-dash"></i> Basic</h3>
+                <div class="price">
+                    <h1>$9</h1>
+                    <p>per User<br>billed monthly</p>
+                </div>
+                <div class="btn-wrapper">
+                    <button>Get Started <i class="bi bi-cart-plus"></i></button>
+                </div>
+            </div>
+            <!-- end plan head -->
+
+            <!-- start plan features -->
+            <div class="plan-features">
+                <ul>
+                    <li><span><i class="bi bi-folder2-open"></i></span> 5 Projects</li>
+                    <li><span><i class="bi bi-cloud-arrow-down"></i></span> 10 GB Storage</li>
+                    <li><span><i class="bi bi-bar-chart"></i></span> Basic Analytics</li>
+                    <li><span><i class="bi bi-envelope-check"></i></span> Email Support</li>
+                    <li><span><i class="bi bi-slack"></i></span> Community Access</li>
+                </ul>
+                <!-- start plan footer msg -->
+                <div class="info">
+                    <span>
+                        <i class="bi bi-info-circle"></i>
+                        <span class="msg">
+                            we offer 24h full-refund, check our <a href="refundPolicy.html">refund policy</a> for more.
+                        </span>
+                    </span>
+                    24h money-back guarantee
+                </div>
+                <!-- end plan footer msg -->
+            </div>
+            <!-- end plan features -->
+        </div>
+        <!-- end basic plan -->
+
+        <!-- start plus plan -->
+        <div class="plus-plan">
+            <div class="flag">most popular</div>
+            <!-- start plan head -->
+            <div class="plan-head">
+                <div class="save-two-months-flag">save 2 months</div>
+                <h3 class="gradient-text"><i class="bi bi-dash"></i> Plus</h3>
+                <div class="price">
+                    <h1>$19</h1>
+                    <p>per User<br>billed monthly</p>
+                </div>
+                <div class="btn-wrapper">
+                    <button>Get Started <i class="bi bi-cart-plus"></i></button>
+                </div>
+            </div>
+            <!-- end plan head -->
+
+            <!-- start plan features -->
+            <div class="plan-features">
+                <ul>
+                    <li><span><i class="bi bi-folder2-open"></i></span> <b>Unlimited</b> Projects</li>
+                    <li><span><i class="bi bi-cloud-arrow-down"></i></span> 100 GB Storage</li>
+                    <li><span><i class="bi bi-bar-chart"></i></span> <b>Advanced</b> Analytics</li>
+                    <li><span><i class="bi bi-envelope-check"></i></span> Emails & Chat Suuport</li>
+                    <li><span><i class="bi bi-slack"></i></span> Community Access</li>
+                    <li><span><i class="bi bi-sliders2-vertical"></i></span> Customizable Dashboard</li>
+                </ul>
+                <!-- start plan footer msg -->
+                <div class="info">
+                    <span>
+                        <i class="bi bi-info-circle"></i>
+                        <span class="msg">
+                            we offer 24h full-refund, check our <a href="refundPolicy.html">refund policy</a> for more.
+                        </span>
+                    </span>
+                    24h money-back guarantee
+                </div>
+                <!-- end plan footer msg -->
+            </div>
+            <!-- end plan features -->
+        </div>
+        <!-- end plus plan -->
+        
+        <!-- start enterprise plan -->
+        <div class="enterprise-plan">
+            <!-- start plan head -->
+            <div class="plan-head">
+                <div class="save-two-months-flag">save 2 months</div>
+                <h3><i class="bi bi-dash"></i> Enterprise</h3>
+                <div class="price">
+                    <h1>$49</h1>
+                    <p>per User<br>billed monthly</p>
+                </div>
+                <div class="btn-wrapper">
+                    <button>Get Started <i class="bi bi-cart-plus"></i></button>
+                </div>
+            </div>
+            <!-- end plan head -->
+
+            <!-- start plan features -->
+            <div class="plan-features">
+                <ul>
+                    <li><span><i class="bi bi-patch-plus"></i></span> <b>Everything</b> in Plus</li>
+                    <li><span><i class="bi bi-cloud-arrow-down"></i></span> 1 TB Storage</li>
+                    <li><span><i class="bi bi-person-badge-fill"></i></span> Account Manager</li>
+                    <li><span><i class="bi bi-lock"></i></span> <b>Advanced</b> Security</li>
+                    <li><span><i class="bi bi-globe"></i></span> API Access</li>
+                    <li><span><i class="bi bi-headset"></i></span> 24/7 Customer Support</li>
+                </ul>
+                <!-- start plan footer msg -->
+                <div class="info">
+                    <span>
+                        <i class="bi bi-info-circle"></i>
+                        <span class="msg">
+                            we offer 24h full-refund, check our <a href="refundPolicy.html">refund policy</a> for more.
+                        </span>
+                    </span>
+                    24h money-back guarantee
+                </div>
+                <!-- end plan footer msg -->
+            </div>
+            <!-- end plan features -->
+        </div>
+        <!-- end enterprise plan -->
+    </section>
+    <!-- end plans container -->
+
+    <!-- include javascript files -->
+    <script src="js/themeSwitch.js"></script>
+    <script src="js/togglePlans.js"></script>
+</body>
+</html>
